@@ -1,4 +1,4 @@
-<div id='product-component-1692697206841'></div>
+<div id='product-component-1692697327992'></div>
 <script type="text/javascript">
 /*<![CDATA[*/
 (function () {
@@ -27,7 +27,7 @@
     ShopifyBuy.UI.onReady(client).then(function (ui) {
       ui.createComponent('product', {
         id: '8596727791901',
-        node: document.getElementById('product-component-1692697206841'),
+        node: document.getElementById('product-component-1692697327992'),
         moneyFormat: '%24%7B%7Bamount%7D%7D',
         options: {
   "product": {
@@ -38,10 +38,22 @@
           "margin-left": "20px",
           "margin-bottom": "50px"
         }
+      },
+      "button": {
+        ":hover": {
+          "background-color": "#355473"
+        },
+        "background-color": "#3b5d80",
+        ":focus": {
+          "background-color": "#355473"
+        },
+        "padding-left": "96px",
+        "padding-right": "96px"
       }
     },
+    "buttonDestination": "checkout",
     "text": {
-      "button": "Add to cart"
+      "button": "Buy now"
     }
   },
   "productSet": {
@@ -67,6 +79,17 @@
           "margin-left": "0px",
           "margin-bottom": "0px"
         }
+      },
+      "button": {
+        ":hover": {
+          "background-color": "#355473"
+        },
+        "background-color": "#3b5d80",
+        ":focus": {
+          "background-color": "#355473"
+        },
+        "padding-left": "96px",
+        "padding-right": "96px"
       }
     },
     "text": {
@@ -75,12 +98,35 @@
   },
   "option": {},
   "cart": {
+    "styles": {
+      "button": {
+        ":hover": {
+          "background-color": "#355473"
+        },
+        "background-color": "#3b5d80",
+        ":focus": {
+          "background-color": "#355473"
+        }
+      }
+    },
     "text": {
       "total": "Subtotal",
       "button": "Checkout"
     }
   },
-  "toggle": {}
+  "toggle": {
+    "styles": {
+      "toggle": {
+        "background-color": "#3b5d80",
+        ":hover": {
+          "background-color": "#355473"
+        },
+        ":focus": {
+          "background-color": "#355473"
+        }
+      }
+    }
+  }
 },
       });
     });
