@@ -1,4 +1,4 @@
-<div id='product-component-1692697327992'></div>
+<div id='product-component-1692838499666'></div>
 <script type="text/javascript">
 /*<![CDATA[*/
 (function () {
@@ -21,13 +21,13 @@
   }
   function ShopifyBuyInit() {
     var client = ShopifyBuy.buildClient({
-      domain: '97ea8e.myshopify.com',
-      storefrontAccessToken: 'a803904c1ac1e12aad95774cadb11076',
+      domain: '1abcb1.myshopify.com',
+      storefrontAccessToken: '10a0dc0002739eda2926b60121dab1e9',
     });
     ShopifyBuy.UI.onReady(client).then(function (ui) {
       ui.createComponent('product', {
-        id: '8596727791901',
-        node: document.getElementById('product-component-1692697327992'),
+        id: '8538782597396',
+        node: document.getElementById('product-component-1692838499666'),
         moneyFormat: '%24%7B%7Bamount%7D%7D',
         options: {
   "product": {
@@ -41,19 +41,21 @@
       },
       "button": {
         ":hover": {
-          "background-color": "#355473"
+          "background-color": "#4e74a4"
         },
-        "background-color": "#3b5d80",
+        "background-color": "#5781b6",
         ":focus": {
-          "background-color": "#355473"
-        },
-        "padding-left": "96px",
-        "padding-right": "96px"
+          "background-color": "#4e74a4"
+        }
       }
     },
     "buttonDestination": "checkout",
+    "contents": {
+      "button": false,
+      "buttonWithQuantity": true
+    },
     "text": {
-      "button": "Buy now"
+      "button": "Join the Auction"
     }
   },
   "productSet": {
@@ -82,30 +84,34 @@
       },
       "button": {
         ":hover": {
-          "background-color": "#355473"
+          "background-color": "#4e74a4"
         },
-        "background-color": "#3b5d80",
+        "background-color": "#5781b6",
         ":focus": {
-          "background-color": "#355473"
-        },
-        "padding-left": "96px",
-        "padding-right": "96px"
+          "background-color": "#4e74a4"
+        }
       }
     },
     "text": {
       "button": "Add to cart"
     }
   },
-  "option": {},
+  "option": {
+    "styles": {
+      "label": {
+        "color": "#550707"
+      }
+    }
+  },
   "cart": {
     "styles": {
       "button": {
         ":hover": {
-          "background-color": "#355473"
+          "background-color": "#4e74a4"
         },
-        "background-color": "#3b5d80",
+        "background-color": "#5781b6",
         ":focus": {
-          "background-color": "#355473"
+          "background-color": "#4e74a4"
         }
       }
     },
@@ -117,12 +123,12 @@
   "toggle": {
     "styles": {
       "toggle": {
-        "background-color": "#3b5d80",
+        "background-color": "#5781b6",
         ":hover": {
-          "background-color": "#355473"
+          "background-color": "#4e74a4"
         },
         ":focus": {
-          "background-color": "#355473"
+          "background-color": "#4e74a4"
         }
       }
     }
